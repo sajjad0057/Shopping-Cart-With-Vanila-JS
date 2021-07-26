@@ -1,0 +1,121 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(168, 167, 167);
+    padding: 0 50px;
+}
+li,a,button{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(75, 80, 80);
+    text-decoration: none;
+}
+
+
+
+.Logo{
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+}
+
+.nav_links{
+    list-style: none;
+    margin-top:20px;
+
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px ;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: rgb(253, 252, 252);
+}
+
+.cta:hover{
+    color: chocolate;
+
+}
+
+.cta{
+    height: 20px;
+}
+.cart{
+    padding: 3px 20px;
+    background-color:rgb(199, 196, 196);
+    border: none;
+    border-radius: 33px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 150px;
+    height: 30px;
+    font-weight: bolder;
+
+ 
+}
+
+.cart:hover{
+    color: rgb(253, 252, 252);
+}
+
+
+
+
+
+.item_body{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    padding: 2px;
+    
+    
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+}
+.item{
+    margin: 3px;
+    padding: 3px;
+    
+}
+
+
+.item_head{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    width: 100%;
+    color:rgb(117, 113, 113);
+    background-color: rgb(197, 198, 201);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding:10px;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover{
+    color: white;
+}
+
+
+.right{
+    width:300px;
+    height: max-content;
+    float: right;
+    z-index: 5;
+    margin: 3px;
+    background-color: rgb(168, 167, 167);
+    
+}
